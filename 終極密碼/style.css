@@ -1,0 +1,15 @@
+*{ margin:0; padding:0; position:relative;}
+img{ width: 200px; height: 200px;}
+body{  background:#161623; }
+#pict { top: 120%;position: absolute; width: 100%;}
+h1{padding:15px 0; color: #c5c5c5;}
+input{margin: 10px 0;height: 28px;border-radius: 5px;border: 0;padding: 0 5px;text-align: center;font-size: 24px;width: 140px;}
+button{cursor:pointer;padding:10px;font-size: 17px;color:#fff;border-radius:5px;background: rgba(255, 255, 255, 0.1);margin: 10px auto;}
+button:hover{background: rgb(255 255 255);color: #000;}
+#box{border: 1px solid #000;text-align: center;display: block;height: 100vh;overflow: hidden;}
+#box::before{ content: ""; position: absolute; width: 400px; height: 400px; background:linear-gradient(#ffc107,#e91e63); border-radius: 50%; transform: translate(-452px,77px);}
+#box::after{content: "";position: absolute;width: 400px;height: 400px;background: linear-gradient(#2196f3,#31ff38);border-radius:50%;transform: translate(72px,208px);}
+#box > div:before{ content:""; position:absolute; display:block; width: 400px; min-height: 560px; background: rgba(255, 255, 255, 0.1); box-shadow: 0 25px 45px rgba(0,0,0,0.5); border: 1px solid (255, 255, 255, 0.1); border-right: 1px solid rgba(255, 255, 255, 0.2); border-bottom: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px; backdrop-filter:blur(25px); top: 100%; transform:translate(-50%,-50%); left:50%;}
+#box > div{color: #d2d2d2;top: 37%;transform:translate(-50%,-50%);left:50%;z-index: 1;}
+.videobox { position: relative; width: 100%; height: 0; padding-bottom: 56.25%;}
+
